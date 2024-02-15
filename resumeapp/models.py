@@ -41,10 +41,6 @@ class ResumeModel(models.Model):
     def __str__(self):
         return self.title
 
-    # icons= (
-    #     (ANALY,'analysis'),
-    # )
-
 
 ICON_CHOICES = (
     ('analysis', "analysis"),
@@ -78,3 +74,6 @@ class Contact(models.Model):
 
     def __str__(self):
         return self.name
+
+
+
